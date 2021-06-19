@@ -11,7 +11,7 @@
     android:layout_marginEnd="8dp"
     android:layout_marginRight="8dp"
     android:layout_marginBottom="8dp"
-    app:cardBackgroundColor="#71EAC8"
+    app:cardBackgroundColor="#F49FF3"
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp">
 
@@ -27,6 +27,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
             android:text=" Name :"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,6 +39,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:text="Wuanita Wanjiku"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,7 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Phone Number"
+            android:text="Phone Number :"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvContact"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvContact" />
@@ -57,6 +63,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="0113659476"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/textView4"
             app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
@@ -67,7 +75,9 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:text="Email"
+            android:text="Email :"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvEmail"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvEmail" />
@@ -80,6 +90,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             android:text="wanjikuwuanita@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/tvContact" />
